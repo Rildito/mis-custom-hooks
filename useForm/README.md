@@ -8,5 +8,5 @@ Ejemplo:
         email:''
     };
 
-    const {formValues, handleInputChange, reset} = useForm(initialForm);
+    const [formValues, handleInputChange, reset] = useForm(initialForm);
 ```
